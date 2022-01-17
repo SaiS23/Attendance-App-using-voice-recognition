@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:background="@drawable/blueshadesback"
+    android:layout_centerVertical="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+        android:padding="15dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/adminbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:buttonTint="#000"
+                android:fontFamily="@font/asar"
+                android:text="Admin"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textColorHighlight="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/teacherbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:buttonTint="#000"
+                android:fontFamily="@font/asar"
+                android:text="Teacher"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textColorHighlight="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/studentbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:buttonTint="#000"
+                android:fontFamily="@font/asar"
+                android:text="Student"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textColorHighlight="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="20dp" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_person_"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/asar"
+            android:foregroundTint="#FBF6F6"
+            android:hint="Username"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textColorHighlight="#000"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="20dp"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/asar"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textColorHighlight="#000"
+            android:textColorHint="#000"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:onClick="loginFunction"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Login"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logologin"
+        android:layout_width="236dp"
+        android:layout_height="217dp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="50sp"
+        app:srcCompat="@drawable/teamwork" />
+
+</RelativeLayout>

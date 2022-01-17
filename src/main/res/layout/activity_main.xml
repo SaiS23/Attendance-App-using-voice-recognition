@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c1"
+    android:foregroundGravity="fill_vertical"
+    android:foregroundTint="#B62727"
+    android:foregroundTintMode="multiply"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="-501dp"
+        android:layout_marginBottom="220dp"
+        android:fontFamily="@font/acme"
+        android:padding="30dp"
+        android:text="ATTENDANCE APP"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#FFFCFC"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="288dp"
+        android:layout_height="345dp"
+        android:layout_marginLeft="-20sp"
+        android:layout_marginTop="239dp"
+        android:layout_marginRight="100dp"
+        android:background="#59B35C5C"
+        android:src="@drawable/people"
+        android:translationX="80dp"
+        android:translationY="-10dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/remarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="cursive"
+        android:padding="30dp"
+        android:text="Using voice recognition"
+        android:textColor="#FAF5F5"
+        android:textColorHint="#FFFCFC"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</RelativeLayout>

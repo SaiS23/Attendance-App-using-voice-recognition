@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/blueshadesback"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="eg: A1,A2...."
+        android:layout_margin="20dp"
+        android:id="@+id/batchSslect"
+        android:fontFamily="@font/asar"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:padding="15dp"/>
+
+</RelativeLayout>

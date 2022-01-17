@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueshadesback"
+    android:orientation="vertical"
+    tools:context=".addstudent">
+
+    <TextView
+        android:id="@+id/studlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:text="View Student List"
+        android:fontFamily="@font/acme"
+        android:textColor="	#000000"
+        android:textColorHint="#FFFCFC"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:textStyle="bold"
+            android:hint="new student name"
+            android:inputType="textPersonName"
+            android:layout_margin="10dp"
+            android:textColor="@color/Black"
+            android:textColorHighlight="@color/Black"
+
+            android:textColorHint="@color/Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.055"
+            tools:layout_editor_absoluteX="8dp"
+
+            android:padding="15dp"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:fontFamily="@font/asar"
+            android:textStyle="bold"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColor="@color/Black"
+            android:textColorHighlight="@color/Black"
+
+            android:textColorHint="@color/Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.221"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <EditText
+            android:id="@+id/rollno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Roll no"
+
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:fontFamily="@font/asar"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textColorHighlight="@color/Black"
+
+            android:textColorHint="@color/Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.221"
+            tools:layout_editor_absoluteX="8dp" />
+
+
+        <EditText
+            android:id="@+id/batch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:fontFamily="@font/asar"
+            android:textStyle="bold"
+            android:hint="Batch"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/Black"
+            android:textColorHighlight="@color/Black"
+
+            android:textColorHint="@color/Black"
+            app:layout_constraintVertical_bias="0.221"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:fontFamily="@font/asar"
+            android:textStyle="bold"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/Black"
+            android:textColorHighlight="@color/Black"
+
+            android:textColorHint="@color/Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.601" />
+
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="#D1CBCB"
+            android:backgroundTint="#F8F6F6"
+            android:entries="@array/Department"
+            android:fontFamily="@font/asar"
+            android:textColor="@color/Black"
+            android:textColorHighlight="@color/Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.431"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:onClick="addStudent"
+                android:text="Add"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.139"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.778" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

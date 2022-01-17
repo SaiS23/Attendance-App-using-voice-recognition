@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573756937776",
+    "firebase_url": "https://being-there-64c1b-default-rtdb.firebaseio.com",
+    "project_id": "being-there-64c1b",
+    "storage_bucket": "being-there-64c1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573756937776:android:c05cd32815cf37ae7afff5",
+        "android_client_info": {
+          "package_name": "com.example.beingthere2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573756937776-fmusoqt2q8dlm8q30ofvp989hpoi81ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7cB_iKrNcf6IeryRxm8Kr5oDfnp0X_QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573756937776-fmusoqt2q8dlm8q30ofvp989hpoi81ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
